@@ -1,4 +1,4 @@
-# Udemy_Cadastro_Completo
+# CursoWeb_Cadastro_Completo
 Projeto do curso de HTML, CSS e JavaScript da Udemy, que visa aplicar os conhecimentos em construção e estilização de formulários, adquiridos na parte final da etapa do formulários do curso.
 
 ![image](https://github.com/LeonardoSanga/Udemy_Cadastro_Completo/assets/100099053/df1843c5-cc23-4d62-a7bc-c6682a3a2201)
