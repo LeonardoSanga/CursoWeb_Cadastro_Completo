@@ -1,0 +1,110 @@
+:root {
+    --light-color: #0202e4a1;
+}
+
+html {
+    background-color: var(--light-color);
+    font-family: 'Roboto', sans-serif;
+    color: var(--light-color);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: white;
+    padding: 2.5em .7em .7em;
+    width: 450px;
+    box-shadow: -7px 0 rgba(0, 0, 0, .2);
+}
+
+.form__fieldset {
+    border: none;
+}
+
+.form__input, .form__label {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    color: rgb(65, 61, 61);
+}
+
+.form__input {
+    font-size: 1em;
+    padding: .3em 0;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #0000ff70;
+    margin-bottom: .8em;
+    transition: padding-left .08s;
+}
+
+.form__input:focus {
+    outline: 2px solid var(--light-color);
+    padding-left: .4em;
+}
+
+.form__label {
+    font-size: .9em;
+    text-transform: uppercase;
+    margin-bottom: .8em;
+}
+
+.form__title {
+    font-size: 2rem;
+    margin-bottom: .2em;
+    font-weight: 300;
+}
+
+.form__links-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form__buttons-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.btn {
+    background-color:  var(--light-color);
+    color: white;
+    padding: .8em 1.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-cadastre {
+    color:  var(--light-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+   
+}
+
+a {
+    font-size: .8em;
+}
+
+.form__link-login {
+    display: flex;
+    align-items: center;
+    gap: .2em;
+}
+
+.form__link-login p {
+    color: black;
+    font-size: .8em;
+    text-transform: none;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <form action="#" method="get" autocomplete="off" class="form">
+        <fieldset class="form__fieldset">
+            <legend class="form__title">Cadastre-se</legend>
+
+            <label for="user" class="form__label">Usuário</label>
+            <input type="text" id="user" name="user" class="form__input" required >
+
+            <label for="email" class="form__label">Email</label>
+            <input type="email" id="email" name="email" class="form__input" required >
+
+            <label for="passw" class="form__label">Senha</label>
+            <input type="password" id="passw" name="passw" class="form__input" required>
+
+            <div class="form__links-wrapper">
+
+                <button  class="btn" type="submit">Cadastre-se</button>
+
+                <p class="form__link-login">Já possui cadastro?
+                    <a href="index.html" id="login">Login</a>
+                </p>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
